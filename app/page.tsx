@@ -64,6 +64,20 @@ export default function Home() {
       <section className="proof-section">
         <div className="proof-copy"><p className="eyebrow">ESTUDO DE CASO COMO VITRINE</p><h2>Desenvolvimento regional contado por resultados.</h2><p>A região metropolitana de Campinas e Jaguariúna entram como referência de atração de empresas, geração de empregos, responsabilidade fiscal e gestão pública.</p><div className="focus-list"><span>Força regional</span><span>Minha Casa, Minha Vida</span><span>Emprego e empresas</span><span>Responsabilidade fiscal</span></div></div>
         <blockquote><span>ÂNGULO DA MENSAGEM</span><p>“Você viu como uma região forte atraiu empresas e gerou empregos nos últimos anos? Esse movimento foi construído com liderança regional. Agora, esse mesmo modelo de desenvolvimento pode chegar a uma nova região.”</p></blockquote>
+        <div className="case-details">
+          <article className="copy-angle">
+            <span>ÂNGULO DA COPY</span>
+            <p>“Você viu como a região de Campinas atraiu empresas e gerou empregos nos últimos anos? Eu ajudei a liderar esse movimento como presidente da RMC. Agora, quero levar esse mesmo modelo de desenvolvimento para [Nome da Nova Região].”</p>
+          </article>
+          <article>
+            <span>FOCO NA DOR ESPECÍFICA</span>
+            <p>Se a região fria sofre com falta de moradia, a automação deve enviar pílulas de conteúdo mostrando como ele resolveu isso (ex: atraindo o Minha Casa, Minha Vida para Jaguariúna) e perguntar a opinião do eleitor.</p>
+          </article>
+          <article>
+            <span>PESQUISA INTERATIVA (ENGAJAMENTO)</span>
+            <p>Em vez de enviar um panfleto digital (HSM estático), mande uma pesquisa rápida usando as listas interativas da API Oficial. Exemplo: “Como gestor, estou mapeando as prioridades do interior de São Paulo. Na sua visão, o que [Nome da Cidade] mais precisa hoje? 1. Saúde 2. Emprego 3. Asfalto/Infraestrutura”. Isso gera resposta, reduz o risco de banimento e te dá o argumento exato para a próxima mensagem de conversão.</p>
+          </article>
+        </div>
       </section>
 
       <section className="section regions">
