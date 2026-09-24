@@ -67,7 +67,7 @@ export default function Home() {
         <div className="case-details">
           <article className="copy-angle">
             <span>ÂNGULO DA COPY</span>
-            <p>“Você viu como a região de Campinas atraiu empresas e gerou empregos nos últimos anos? Eu ajudei a liderar esse movimento como presidente da RMC. Agora, quero levar esse mesmo modelo de desenvolvimento para [Nome da Nova Região].”</p>
+            <p>“Você viu como uma região forte pode atrair empresas, gerar empregos e melhorar a vida das pessoas? Quero construir esse mesmo caminho de desenvolvimento com planejamento, presença e diálogo direto com a população.”</p>
           </article>
           <article>
             <span>FOCO NA DOR ESPECÍFICA</span>
@@ -78,11 +78,6 @@ export default function Home() {
             <p>Em vez de enviar um panfleto digital (HSM estático), mande uma pesquisa rápida usando as listas interativas da API Oficial. Exemplo: “Como gestor, estou mapeando as prioridades do interior de São Paulo. Na sua visão, o que [Nome da Cidade] mais precisa hoje? 1. Saúde 2. Emprego 3. Asfalto/Infraestrutura”. Isso gera resposta, reduz o risco de banimento e te dá o argumento exato para a próxima mensagem de conversão.</p>
           </article>
         </div>
-      </section>
-
-      <section className="section regions">
-        <div className="section-heading"><p className="eyebrow">PRIORIDADE TERRITORIAL</p><h2>Reativar onde há espaço<br />para crescer.</h2><p>Foco em cidades com menor índice de eleitores e necessidade de retomada de presença.</p></div>
-        <div className="region-grid">{["Aguaí", "Atibaia", "Limeira", "Águas de São Pedro", "Estiva Gerbi", "Pedra Bela", "Pinhalzinho", "Piracaia", "Rio das Pedras", "Saltinho", "Santa Maria da Serra", "São Pedro"].map((city, index) => <div key={city}><span>{String(index + 1).padStart(2, "0")}</span>{city}</div>)}</div>
       </section>
 
       <section className="data-section" id="dados">
